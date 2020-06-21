@@ -357,7 +357,7 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-aws-sdk@^2.553.0, aws-sdk@^2.701.0:
+aws-sdk@^2.443.0, aws-sdk@^2.553.0, aws-sdk@^2.701.0:
   version "2.701.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.701.0.tgz#9827b7eb2bf87722c348d5195c17620b5fe1bead"
   integrity sha512-95fWGr6gvyRH408VP5LQAycB8Wqw665ll7q6/soscGFD+2HuQ+gB5qpSlXJwOgSggKQCaExWoQnDABBoTSXM2w==
@@ -3170,6 +3170,14 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
+
+sqs-consumer@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/sqs-consumer/-/sqs-consumer-5.4.0.tgz#bac47e50e2f7f86aade5b83baab16dd59ef6d45b"
+  integrity sha512-Wcv7tEMvAqDNEEglCYlOZKufKxRsFPp2J5znYbAvcgB66u64QyXrF5TBb2g4kVn2QKAt5UBoT/GB/gsPLoY3eA==
+  dependencies:
+    aws-sdk "^2.443.0"
+    debug "^4.1.1"
 
 sshpk@^1.7.0:
   version "1.16.1"
