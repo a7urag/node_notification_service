@@ -1,7 +1,7 @@
 {
   "name": "node_notification_service",
   "version": "0.1",
-  "description": "a simple notification service using aws sqs, email-template npm, pub template engine and aws ses as mail transport layer",
+  "description": "Simple notification service using aws sqs queue, email-template npm, pub template engine and aws ses as mail transport layer based on typescript",
   "main": "index.js",
   "repository": "https://github.com/a7urag/node_notification_service",
   "author": "a7urag",
