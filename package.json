@@ -14,7 +14,7 @@
     "watch-node": "nodemon"
   },
   "dependencies": {
-    "aws-sdk": "^2.701.0",
+    "aws-sdk": "^2.814.0",
     "email-templates": "^7.0.5",
     "nodemon": "^2.0.4",
     "pug": "^3.0.0",
